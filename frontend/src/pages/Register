@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Go.Storee - Registro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+  <div class="bg-gray-800 text-white rounded-xl p-8 w-96 shadow-lg">
+    <h1 class="text-3xl font-light text-center mb-6">
+      Go.<span class="font-bold text-blue-500">Storee</span>
+    </h1>
+    <h2 class="text-center text-lg mb-4">Regístrate</h2>
+
+    <form class="space-y-4">
+      <input type="text" placeholder="Nombre" class="w-full px-4 py-2 rounded text-black" />
+      <input type="email" placeholder="Correo electrónico" class="w-full px-4 py-2 rounded text-black" />
+      <input type="password" placeholder="Contraseña" class="w-full px-4 py-2 rounded text-black" />
+      <input type="password" placeholder="Confirmación de contraseña" class="w-full px-4 py-2 rounded text-black" />
+
+      <select class="w-full px-4 py-2 rounded bg-blue-600 text-white">
+        <option value="">Seleccione tu rol</option>
+        <option value="admin">Administrador</option>
+        <option value="vendedor">Vendedor</option>
+        <option value="consultor">Consultor</option>
+      </select>
+
+      <button class="w-full bg-yellow-400 text-black font-semibold py-2 rounded hover:bg-yellow-500">
+        Registrar
+      </button>
+    </form>
+
+    <p class="text-center mt-4 text-sm">
+      ó <br />
+      <span class="underline cursor-pointer">Inicia Sesión</span>
+    </p>
+  </div>
+
+</body>
+</html>
